@@ -1,0 +1,9 @@
+.form-region-right .image-widget .image-widget-data div.form-type-textfield input,
+.form-region-right .file-widget .file-widget div.form-type-textfield input {
+  width: 290px;
+}
+
+.form-region-right .image-widget .image-widget-data div.form-type-textfield div.description,
+.form-region-right .file-widget div.form-type-textfield div.description {
+  white-space: normal;
+}

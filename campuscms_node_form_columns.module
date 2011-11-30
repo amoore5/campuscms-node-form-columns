@@ -1,0 +1,16 @@
+<?php
+/**
+ * @file
+ * Code for the Node Form Columns module.
+ */
+
+/**
+ * Implements hook_form_alter().
+ */
+function campuscms_node_form_columns_form_alter(&$form, &$form_state, $form_id) {
+  if (substr($form_id, -10, 10) == '_node_form') {
+    $form['#attached']['css'] = array(
+      drupal_get_path('module', 'campuscms_node_form_columns') . '/campuscms-node-form-columns.css',
+    );
+  }
+}
