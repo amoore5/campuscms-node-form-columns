@@ -1,2 +1,4 @@
 core = 7.x
+name = CampusCMS Node Form Columns
+description = Configures the nodeformcols module.
 dependencies[] = nodeformcols
